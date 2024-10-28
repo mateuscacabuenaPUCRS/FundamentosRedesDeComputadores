@@ -1,6 +1,6 @@
 # Fundamentos de Redes de Computadores
 
--  Professor: Alvaro Gehlen
--  Código: 4471V-02
+-  Professor: Cristina Nunes
+-  Código: 98709-04
 -  Semestre: 2024/2
 -  Nota: cursando
