@@ -3,4 +3,4 @@
 -  Professor: Cristina Nunes
 -  Código: 98709-04
 -  Semestre: 2024/2
--  Nota: cursando
+-  Nota: 7.8
