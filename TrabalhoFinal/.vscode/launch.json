@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "router.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug: With Args",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "router.py",
+            "console": "integratedTerminal",
+            "args": ["${input:arg1}", "${input:arg2}", "${input:arg3}"]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "arg1",
+            "type": "promptString",
+            "description": "Enter the initial routers file path"
+        },
+        {
+            "id": "arg2",
+            "type": "promptString",
+            "description": "Enter your IPv4 address"
+        },
+        {
+            "id": "arg3",
+            "type": "promptString",
+            "description": "Enter the log file path"
+        }
+    ]
+}
